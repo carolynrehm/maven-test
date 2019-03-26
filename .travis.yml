@@ -1,0 +1,7 @@
+language: java
+sudo: false
+install: true
+
+script:
+  - mvn clean package
+  - mvn sonar:sonar -Dsonar.projectKey=maven-test -Dsonar.organization=carolynrehm-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
