@@ -26,7 +26,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		employees.add(new Employee(7, "Perry Pitkins", Date.valueOf("1987-02-09"), 2793.79, Date.valueOf("2015-03-05"), "IT Director", 0, 3));
 		employees.add(new Employee(8, "Rasla Pool", Date.valueOf("1983-06-04"), 1878.01, Date.valueOf("2018-06-25"), "IT Professional", 7, 3));
 		employees.add(new Employee(9, "Jodie Hounsom", Date.valueOf("1980-03-07"), 1404.45, Date.valueOf("2015-12-19"), "IT Assisstant", 8, 3));
-		employees.add(new Employee(10, "Layney Goretti", Date.valueOf("1986-03-01"), 1651.55, Date.valueOf("2016-12-27"), "IT Professional", 7, 3));
+		employees.add(new afmsEmployee(10, "Layney Goretti", Date.valueOf("1986-03-01"), 1651.55, Date.valueOf("2016-12-27"), "IT Professional", 7, 3));
 
 	}
 
