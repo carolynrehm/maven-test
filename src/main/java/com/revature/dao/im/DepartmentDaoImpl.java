@@ -14,7 +14,7 @@ public class DepartmentDaoImpl implements DepartmentDao {
 		super();
 		departments.add(new Department(1, "Human Resources", 13000));
 		departments.add(new Department(2, "Information Technology", 15000));
-		departments.add(new Department(3, "Sales", 12000));
+		departmentss.add(new Department(3, "Sales", 12000));
 //		departments.add(new Department(7, "Marketing", 15000));
 	}
 
