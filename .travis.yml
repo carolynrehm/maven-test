@@ -1,4 +1,4 @@
 language: java
 
 script:
-  - mvn sonar:sonar -Dsonar.projectKey=maven-test -Dsonar.organization=carolynrehm-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+  - mvn clean package
